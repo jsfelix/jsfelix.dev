@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Subtitle } from "../components/Subtitle";
 import { Title } from "../components/Title";
@@ -5,6 +6,9 @@ import { Title } from "../components/Title";
 export default function Home() {
   return (
     <div className="gap-2">
+      <Head>
+        <title>Jefferson Felix</title>
+      </Head>
       <Title>Jefferson Felix</Title>
       <Subtitle>Hello, World!</Subtitle>
       <ul className="p-4 flex flex-col gap-2">
