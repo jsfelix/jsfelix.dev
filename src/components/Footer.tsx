@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="absolute bottom-0 w-full min-h-10">
-      <div className="p-4 flex gap-4 bg-slate-500 dark:bg-slate-700">
+    <footer className="absolute bottom-0 w-full min-h-10 p-4 bg-slate-500 dark:bg-slate-700">
+      <div className="max-w-6xl m-auto flex gap-4">
         <a href="https://github.com/jsfelix">
           <Image
             src="/assets/images/github.png"

@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="relative min-h-screen">
       <Header title="Jefferson Felix" />
-      <main className="pb-10">
+      <main className="pb-10 max-w-6xl m-auto">
         <Component {...pageProps} />
       </main>
       <Footer />
