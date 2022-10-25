@@ -13,6 +13,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
+          <meta name="description" content="Senior Software Engineer" />
           <link rel="shortcut icon" href="/assets/images/favicon.ico" />
           <link
             rel="apple-touch-icon"
